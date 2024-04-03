@@ -32,17 +32,17 @@ button {
 .container {
   max-width: 320px;
   margin: 0 auto;
-  padding: 0 16;
+  padding: 0 16px;
 }
-@media screen and (main-width: 768px) {
+@media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
 }
-@media screen and (main-width: 1158px) {
+@media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
-    padding: 0 15;
+    padding: 0 15px;
   }
 }
 /* конкретные коассы */
@@ -55,9 +55,9 @@ button {
 
 .top-header {
   border-bottom: 1px solid #e7e9fc;
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; */
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
@@ -148,6 +148,7 @@ button {
   }
   .address {
     display: block;
+    font-style: normal;
   }
 
   .ul-address {
