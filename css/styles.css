@@ -559,18 +559,16 @@ button {
 }
 /* media 4*/
 
-@media screen and (min-width: 768) {
+@media screen and (min-width: 768px) {
   .portfolio {
     padding-top: 105px;
     padding-bottom: 105px;
   }
   .portfolio-list {
     display: flex;
-    flex-direction: row;
     gap: 72px 24px;
-    align-items: center;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
   }
 }
 
