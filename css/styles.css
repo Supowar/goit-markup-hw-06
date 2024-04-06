@@ -570,9 +570,25 @@ button {
     flex-direction: row;
     flex-wrap: wrap;
   }
+  .portfolio-list-item {
+    width: calc((100% - 24px) / 2);
+  }
 }
 
 @media screen and (min-width: 1158) {
+  .portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .portfolio-list {
+    display: flex;
+    gap: 48px 24px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .portfolio-list-item {
+    width: calc((100% - 48px) / 3);
+  }
 }
 
 /* footer */
