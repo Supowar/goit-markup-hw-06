@@ -289,7 +289,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    text-align: ;
+    text-align: center;
   }
 
   .title-strategy {
@@ -595,8 +595,8 @@ button {
 /* footer */
 
 .down {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .logo-footer {
@@ -605,7 +605,7 @@ button {
 }
 
 .div-footer {
-  margin-right: 120px;
+  /* margin-right: 120px; */
 }
 
 .footer-p {
@@ -630,10 +630,13 @@ button {
 .footer-conatiner {
   display: flex;
   align-items: baseline;
+  flex-direction: column;
+  gap: 72px;
+  align-items: center;
 }
 
 .form-container {
-  margin-left: auto;
+  /* margin-left: auto; */
 }
 
 .footer-icons-link {
@@ -664,6 +667,8 @@ button {
 .subscribe-form {
   display: flex;
   gap: 24px;
+  flex-direction: row;
+  align-items: center;
 }
 
 .form-label {
@@ -710,9 +715,35 @@ button {
 }
 
 @media screen and (min-width: 768px) {
+  .footer-conatiner {
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    gap: 72px;
+    align-items: baseline;
+    flex-wrap: wrap;
+    padding-left: 108px;
+  }
+  .down {
+    padding-top: 87px;
+    padding-bottom: 87px;
+  }
 }
 
 @media screen and (min-width: 1158px) {
+  .footer-conatiner {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 140px 120px;
+  }
+  .form-container {
+    margin-left: auto;
+  }
+
+  .subscribe-form {
+    flex-direction: column;
+  }
 }
 
 /* modalka */
