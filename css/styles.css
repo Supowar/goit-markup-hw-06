@@ -286,11 +286,11 @@ button {
   }
 
   .help-p {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
+    font-weight: 500px;
+    font-size: 36px;
+    line-height: 1.11111;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #2e2f42;
     text-align: center;
   }
 
@@ -417,8 +417,8 @@ button {
 
 @media screen and (min-width: 1158) {
   .hero-three {
-    padding-bottom: 120px;
-    padding-top: 120px;
+    padding-bottom: 112px;
+    padding-top: 112px;
   }
   .ul-hero-three {
     border-radius: 0 0 4px 4px;
