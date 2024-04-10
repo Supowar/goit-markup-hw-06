@@ -188,8 +188,8 @@ button {
 
 .hero {
   background-color: #2e2f42;
-  padding: 112px 0;
-  max-width: 768px;
+  padding: 72px 0;
+  max-width: 320px;
   margin: 0 auto;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -247,6 +247,40 @@ button {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .hero {
+    background-color: #2e2f42;
+    padding: 112px 0px;
+    max-width: 768px;
+    margin: 0 auto;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg/hero-tab.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media screen and (min-widthl: 1158px) {
+  .hero {
+    background-color: #2e2f42;
+    padding: 188px 0px;
+    max-width: 1158px;
+    margin: 0 auto;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg/hero-tab.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
 /* section hero-two */
 
 .hero-two {
@@ -283,6 +317,11 @@ button {
 }
 
 @media screen and (min-width: 768px) {
+  .hero-two {
+    padding-bottom: 96px;
+    padding-top: 96px;
+  }
+
   .ul-section-two {
     display: flex;
     gap: 72px 24px;
@@ -394,7 +433,7 @@ button {
 
 .hero-three {
   background-color: #f4f4fd;
-  padding: 120px 0 120px;
+  padding: 96px 0 96px;
 }
 
 .title-h-three {
