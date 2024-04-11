@@ -85,7 +85,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding: 17px 0;
+  /* padding: 17px 0; */
 }
 .logo-part {
   color: #2e2f42;
@@ -195,19 +195,19 @@ button {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-bg/hero-tab.jpg);
+    url(../images/dark-bg-1x.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .title-h-one {
-  font-size: 36px;
+  font-size: 56px;
   line-height: 1.11111;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  max-width: 200px;
+  max-width: 496px;
   margin: 0 auto;
   margin-bottom: 48px;
 }
@@ -243,7 +243,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero-bg/hero-tab@2x.jpg);
+      url(../images/dark-bg-1x.jpg);
   }
 }
 
@@ -257,7 +257,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero-bg/hero-tab.jpg);
+      url(../images/Dark-bg-1x-768.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -274,7 +274,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero-bg/hero-tab.jpg);
+      url(../images/dark-bg-1x-1158.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -672,6 +672,9 @@ button {
 
 .div-footer {
   /* margin-right: 120px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footer-p {
