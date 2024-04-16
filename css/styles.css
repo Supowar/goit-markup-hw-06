@@ -206,9 +206,9 @@ button {
 
 @media screen and (max-width: 320px) {
   .mobile-menu {
-    /* opacity: 0;
-  pointer-events: none;
-  visibility: hidden; */
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
     position: fixed;
     width: 100%;
     height: 100%;
