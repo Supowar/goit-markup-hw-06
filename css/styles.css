@@ -327,6 +327,9 @@ button {
   .mobile-menu-icon {
     fill: #f4f4fd;
   }
+  .mail {
+    color: #434455;
+  }
 }
 
 /* section hero */
