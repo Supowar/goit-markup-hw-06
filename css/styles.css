@@ -358,6 +358,11 @@ button {
     color: #2e2f42;
   }
 }
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
+}
 
 /* section hero */
 
