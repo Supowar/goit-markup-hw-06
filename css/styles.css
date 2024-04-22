@@ -41,7 +41,7 @@ button {
 }
 @media screen and (min-width: 1158px) {
   .container {
-    max-width: 1440px;
+    max-width: 1158px;
     padding: 0 15px;
   }
 }
@@ -79,7 +79,7 @@ button {
   display: none;
 }
 
-.logo {
+.header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -87,7 +87,8 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  /* padding: 17px 0; */
+  padding: 16px 0;
+  margin-right: 120px;
 }
 .logo-part {
   color: #2e2f42;
@@ -111,7 +112,8 @@ button {
     display: none;
   }
   .logo {
-    margin-right: 120px;
+    /* margin-right: 120px; */
+    padding: 24px 0;
   }
   .ul-header {
     display: flex;
@@ -185,10 +187,12 @@ button {
 @media screen and (min-width: 1158px) {
   .logo {
     margin-right: 76px;
+    padding: 24px 0;
   }
   .ul-address {
     flex-direction: row;
     gap: 40px;
+    padding: 24px 0;
   }
   .address-link {
     font-size: 16px;
@@ -388,6 +392,8 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 216px;
+  margin-bottom: 72px;
 }
 
 .hero-button {
@@ -450,7 +456,7 @@ button {
     color: #ffffff;
     max-width: 496px;
     margin: 0 auto;
-    margin-bottom: 48px;
+    margin-bottom: 36px;
   }
 }
 
@@ -458,7 +464,7 @@ button {
   .hero {
     background-color: #2e2f42;
     padding: 188px 0px;
-    max-width: 1158px;
+    max-width: 1440px;
     margin: 0 auto;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -489,6 +495,7 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    margin-bottom: 48px;
   }
 }
 
@@ -527,13 +534,13 @@ button {
   flex-direction: column;
 }
 .title-strategy {
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11111;
   letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-bottom: 8px;
   text-align: center;
+  color: #2e2f42;
 }
 
 /* .li-two {
@@ -551,13 +558,15 @@ button {
   margin-bottom: 8px;
 }
 
-/* .help-p {
+.help-p {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-} */
+  margin-bottom: 40px;
+}
 
 .team-icons-list {
   display: flex;
@@ -619,12 +628,12 @@ button {
   }
 
   .title-strategy {
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11111;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-bottom: 8px;
     text-align: left;
   }
 }
@@ -645,20 +654,20 @@ button {
     font-weight: 400px;
   }
   .title-strategy {
-    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
     font-size: 20px;
-    line-height: 1.1;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-bottom: 8px;
-    text-align: left;
   }
   .help-p {
-    font-weight: 400px;
-    font-size: 36px;
-    line-height: 1.11111;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #434455;
     /* text-align: center; */
   }
 }
@@ -714,8 +723,8 @@ button {
     padding-top: 112px;
   }
   .ul-hero-three {
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
+    /* border-radius: 0 0 4px 4px;
+    padding: 0; */
     /* width: 1440px;
     height: 780px; */
   }
@@ -902,6 +911,17 @@ button {
   padding-bottom: 96px;
 }
 
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  /* padding: 16px 0; */
+}
+
 .logo-footer {
   display: inline-block;
   margin-bottom: 16px;
@@ -912,7 +932,7 @@ button {
   /* margin-right: 120px; */
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
 }
 
 .footer-p {
@@ -986,7 +1006,7 @@ button {
 }
 
 .form-input {
-  width: 264px;
+  width: 288px;
   height: 40px;
   border: 1px solid #ffffff;
   background-color: transparent;
@@ -1082,12 +1102,25 @@ button {
     margin-bottom: 16px;
     text-align: left;
   }
+  .form-input {
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #ffffff;
+  }
 }
 
 @media screen and (min-width: 1158px) {
   .footer-conatiner {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     flex-direction: row;
     gap: unset;
     padding-left: 15px;
@@ -1132,7 +1165,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 120px;
+    /* margin-right: 120px; */
     align-items: flex-start;
   }
   .down {
