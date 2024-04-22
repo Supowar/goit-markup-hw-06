@@ -88,7 +88,7 @@ button {
   text-transform: uppercase;
   color: #4d5ae5;
   padding: 16px 0;
-  margin-right: 120px;
+  /* margin-right: 120px; */
 }
 .logo-part {
   color: #2e2f42;
@@ -111,10 +111,7 @@ button {
   .open-menu-btn {
     display: none;
   }
-  .logo {
-    /* margin-right: 120px; */
-    padding: 24px 0;
-  }
+
   .ul-header {
     display: flex;
     gap: 40px;
@@ -182,17 +179,17 @@ button {
     /* padding-top: 16px;
   padding-bottom: 16px; */
   }
+
+  .header-logo {
+    margin-right: 120px;
+  }
 }
 
 @media screen and (min-width: 1158px) {
-  .logo {
-    margin-right: 76px;
-    padding: 24px 0;
-  }
   .ul-address {
     flex-direction: row;
     gap: 40px;
-    padding: 24px 0;
+    /* padding: 24px 0; */
   }
   .address-link {
     font-size: 16px;
@@ -394,6 +391,8 @@ button {
   color: #fff;
   max-width: 216px;
   margin-bottom: 72px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-button {
@@ -448,6 +447,18 @@ button {
     background-size: cover;
     background-position: center;
   }
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/Dark-bg-2x-768.jpg);
+    }
+  }
+
   .title-h-one {
     font-size: 56px;
     line-height: 1.11111;
@@ -541,6 +552,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 /* .li-two {
@@ -565,7 +577,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-bottom: 40px;
+  /* margin-bottom: 8px; */
 }
 
 .team-icons-list {
@@ -635,6 +647,7 @@ button {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: left;
+    margin-bottom: 8px;
   }
 }
 
@@ -660,6 +673,7 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
   }
   .help-p {
     font-family: "Roboto", sans-serif;
@@ -696,6 +710,17 @@ button {
   align-items: center;
 }
 
+.help-p-three {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+  margin-bottom: 8px;
+}
+
 @media screen and (min-width: 768px) {
   .ul-hero-three {
     display: flex;
@@ -722,19 +747,16 @@ button {
     padding-bottom: 112px;
     padding-top: 112px;
   }
-  .ul-hero-three {
-    /* border-radius: 0 0 4px 4px;
-    padding: 0; */
-    /* width: 1440px;
-    height: 780px; */
-  }
 
-  .help-p {
-    /* font-weight: 500; */
+  .help-p-three {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #434455;
+    margin-bottom: 8px;
   }
 }
 
@@ -810,11 +832,11 @@ button {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-list-item:hover {
+/* .portfolio-list-item:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 .portfolio-list-item:hover .overlay {
   transform: translateY(0%);
@@ -902,6 +924,11 @@ button {
     width: calc((100% - 48px) / 3);
     gap: 48px 24px;
   }
+  .portfolio-list-item:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
 /* footer */
@@ -919,6 +946,8 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-left: auto;
+  margin-right: auto;
   /* padding: 16px 0; */
 }
 
@@ -929,7 +958,6 @@ button {
 }
 
 .div-footer {
-  /* margin-right: 120px; */
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -1115,6 +1143,17 @@ button {
     border-radius: 4px;
     color: #ffffff;
   }
+
+  .logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-align: left;
+  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -1161,11 +1200,10 @@ button {
     text-align: left;
   }
   .div-footer {
-    /* margin-right: 120px; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* margin-right: 120px; */
+    margin-right: 120px;
     align-items: flex-start;
   }
   .down {
@@ -1196,10 +1234,10 @@ button {
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-container.is-open {
-  /* opacity: 1;
+.modal-container.is-ope {
+  opacity: 1;
   visibility: visible;
-  pointer-events: auto; */
+  pointer-events: auto;
 }
 
 .modal {
@@ -1383,6 +1421,7 @@ button {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin: 0 auto;
   fill: #ffffff;
+  border-radius: 4px;
 }
 
 .some-other-class {
