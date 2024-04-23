@@ -1049,7 +1049,6 @@ button {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
-  margin-right: 24px;
 }
 
 .form-input::placeholder {
@@ -1101,7 +1100,7 @@ button {
     align-items: baseline;
     flex-wrap: wrap;
     width: 584px;
-    /* padding-left: 108px; */
+    margin-right: 24px;
   }
   .down {
     padding-top: 87px;
