@@ -1424,7 +1424,7 @@ button {
   justify-content: center;
   fill: transparent;
   flex-shrink: 0;
-  gap: 7.5px 0;
+  margin-right: 8px;
 }
 
 .custom-span svg use {
@@ -1456,7 +1456,9 @@ button {
 
 .some-other-class {
   color: #4d5ae5;
+  text-decoration: underline;
 }
+
 @media screen and (min-width: 768px) {
   .modal {
     position: absolute;
